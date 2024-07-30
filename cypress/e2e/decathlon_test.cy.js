@@ -9,7 +9,7 @@ it('decathlon_e2e_test', () => {
 
     cy.get('#didomi-notice-agree-button').click()
 
-    cy.get('input.svelte-1yis1by').type('kerékpár{enter}')
+    cy.get('input').type('kerékpár{enter}')
 
     cy.wait(1000)
 
@@ -21,7 +21,7 @@ it('decathlon_e2e_test', () => {
 
     cy.wait(1000)
 
-    cy.get('[data-supermodelid="305449"] > .vtmn-w-full.vtmn-flex-col.vtmn-items-center > .dpb-models > .vtmn-relative > .vtmn-absolute > .svelte-11itto').click()
+    
 
     
 
